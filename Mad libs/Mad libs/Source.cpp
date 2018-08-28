@@ -17,7 +17,6 @@ int main()
 	int a; 
 	int b;
 	int c;
-	c = a - b;
 
 	cout << " Name a color ";
 	cin >> color;
@@ -36,6 +35,12 @@ int main()
 
 	cout << " pluralnoun ";
 	cin >> pluralnoun;
+
+	cout << "  ";
+	cin >> a; 
+
+		cout << " ";
+		cin >> b;
 
 	c = a - b;
 
