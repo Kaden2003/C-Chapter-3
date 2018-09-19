@@ -26,6 +26,7 @@ int rightTriangle()
 	result = cSide;	
 	
 	perimeter = aSide + bSide + cSide;
+	area = aSide * bSide * cSide;
 	
 	cout << "side c is:" << result << endl;
 	cout << "Would you like it to be solved?  1 for yes   2 for no ";
@@ -35,6 +36,7 @@ int rightTriangle()
 	if (answer == 1)
 	{
 	cout << "The perimeter is: " << perimeter << endl;
+	cout << "The area is: " << area << endl;
 	}
 	else if (answer == 2)
 	{
